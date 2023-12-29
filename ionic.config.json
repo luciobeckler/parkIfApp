@@ -1,0 +1,7 @@
+{
+  "name": "parkIfApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
