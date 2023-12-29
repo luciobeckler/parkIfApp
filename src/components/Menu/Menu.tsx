@@ -90,21 +90,6 @@ const Menu: React.FC = () => {
                         );
                     })}
                 </IonList>
-
-                {/*Ion-list de label desnecessária */}
-                {/* <IonList id='labels-list'>
-                    <IonListHeader>Labels</IonListHeader>
-                    {labels.map((label, index) => (
-                        <IonItem lines='none' key={index}>
-                            <IonIcon
-                                aria-hidden='true'
-                                slot='start'
-                                icon={documentAttachOutline}
-                            />
-                            <IonLabel>{label}</IonLabel>
-                        </IonItem>
-                    ))}
-                </IonList> */}
             </IonContent>
         </IonMenu>
     );
