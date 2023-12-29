@@ -20,10 +20,10 @@ import {
 import './Menu.css';
 
 interface AppPage {
+    title: string;
     url: string;
     iosIcon: string;
     mdIcon: string;
-    title: string;
 }
 
 const appPages: AppPage[] = [
@@ -62,8 +62,8 @@ const Menu: React.FC = () => {
         <IonMenu contentId='main' type='overlay'>
             <IonContent>
                 <IonList id='inbox-list'>
-                    <IonListHeader>Inbox</IonListHeader>
-                    <IonNote>hi@ionicframework.com</IonNote>
+                    <IonListHeader>Menu do Aluno</IonListHeader>
+                    <IonNote>Lúcio Beckler Passos</IonNote>
                     {appPages.map((appPage, index) => {
                         return (
                             <IonMenuToggle key={index} autoHide={false}>
